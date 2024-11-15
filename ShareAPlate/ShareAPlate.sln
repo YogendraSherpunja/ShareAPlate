@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareAPlate", "ShareAPlate\ShareAPlate.csproj", "{7B7779AA-3F81-4648-9852-70E3E2B099BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B7779AA-3F81-4648-9852-70E3E2B099BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B7779AA-3F81-4648-9852-70E3E2B099BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B7779AA-3F81-4648-9852-70E3E2B099BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B7779AA-3F81-4648-9852-70E3E2B099BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD29E9E0-1DD8-4D52-8B9E-8FDD50B8CDDC}
+	EndGlobalSection
+EndGlobal
