@@ -4,5 +4,12 @@
   "success": true,
   "projectFilePath": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
