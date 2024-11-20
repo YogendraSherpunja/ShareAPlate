@@ -1,0 +1,8 @@
+c:\Users\MANAV\OneDrive\Desktop\COLLEGE\SEM-5\Software Development Project\ShareAPlate\ShareAPlate\ShareAPlate\obj\Debug\net8.0\ShareAPlate.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\MANAV\OneDrive\Desktop\COLLEGE\SEM-5\Software Development Project\ShareAPlate\ShareAPlate\ShareAPlate\obj\Debug\net8.0\ShareAPlate.AssemblyInfoInputs.cache
+c:\Users\MANAV\OneDrive\Desktop\COLLEGE\SEM-5\Software Development Project\ShareAPlate\ShareAPlate\ShareAPlate\obj\Debug\net8.0\ShareAPlate.AssemblyInfo.cs
+c:\Users\MANAV\OneDrive\Desktop\COLLEGE\SEM-5\Software Development Project\ShareAPlate\ShareAPlate\ShareAPlate\obj\Debug\net8.0\ShareAPlate.csproj.CoreCompileInputs.cache
+c:\Users\MANAV\OneDrive\Desktop\COLLEGE\SEM-5\Software Development Project\ShareAPlate\ShareAPlate\ShareAPlate\obj\Debug\net8.0\ShareAPlate.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\MANAV\OneDrive\Desktop\COLLEGE\SEM-5\Software Development Project\ShareAPlate\ShareAPlate\ShareAPlate\obj\Debug\net8.0\ShareAPlate.RazorAssemblyInfo.cache
+c:\Users\MANAV\OneDrive\Desktop\COLLEGE\SEM-5\Software Development Project\ShareAPlate\ShareAPlate\ShareAPlate\obj\Debug\net8.0\ShareAPlate.RazorAssemblyInfo.cs
+c:\Users\MANAV\OneDrive\Desktop\COLLEGE\SEM-5\Software Development Project\ShareAPlate\ShareAPlate\ShareAPlate\obj\Debug\net8.0\ShareAPlate.sourcelink.json

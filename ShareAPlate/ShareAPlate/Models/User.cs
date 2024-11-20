@@ -22,7 +22,7 @@ namespace ShareAPlate.Models
 
         // Constructor with parameters
         public User(string userFirstName, string userLastName, string email, string password, string location, long number)
-        {
+        {   
             UserFirstName = userFirstName;
             UserLastName = userLastName;
             Email = email;
