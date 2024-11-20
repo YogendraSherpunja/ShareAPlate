@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\MANAV\\OneDrive\\Desktop\\COLLEGE\\SEM-5\\Software Development Project\\ShareAPlate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj": {}
+    "C:\\Users\\MANAV\\OneDrive\\Desktop\\COLLEGE\\SEM-5\\Software Development Project\\ShareAPlate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj": {}
   },
   "projects": {
-    "c:\\Users\\MANAV\\OneDrive\\Desktop\\COLLEGE\\SEM-5\\Software Development Project\\ShareAPlate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj": {
+    "C:\\Users\\MANAV\\OneDrive\\Desktop\\COLLEGE\\SEM-5\\Software Development Project\\ShareAPlate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\MANAV\\OneDrive\\Desktop\\COLLEGE\\SEM-5\\Software Development Project\\ShareAPlate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj",
+        "projectUniqueName": "C:\\Users\\MANAV\\OneDrive\\Desktop\\COLLEGE\\SEM-5\\Software Development Project\\ShareAPlate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj",
         "projectName": "ShareAPlate",
-        "projectPath": "c:\\Users\\MANAV\\OneDrive\\Desktop\\COLLEGE\\SEM-5\\Software Development Project\\ShareAPlate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj",
+        "projectPath": "C:\\Users\\MANAV\\OneDrive\\Desktop\\COLLEGE\\SEM-5\\Software Development Project\\ShareAPlate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj",
         "packagesPath": "C:\\Users\\MANAV\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\MANAV\\OneDrive\\Desktop\\COLLEGE\\SEM-5\\Software Development Project\\ShareAPlate\\ShareAPlate\\ShareAPlate\\obj\\",
+        "outputPath": "C:\\Users\\MANAV\\OneDrive\\Desktop\\COLLEGE\\SEM-5\\Software Development Project\\ShareAPlate\\ShareAPlate\\ShareAPlate\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MANAV\\AppData\\Roaming\\NuGet\\NuGet.Config",
