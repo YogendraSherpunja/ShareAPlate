@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - ShareAPlate</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/html.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ShareAPlate.styles.css" asp-append-version="true" />
 </head>
 <body>
@@ -31,7 +32,7 @@
         </nav>
     </header>
     <div class="container">
-        <main role="main" class="pb-3">
+        <main role="main" class="pb-3 d-flex justify-content-center">
             @RenderBody()
         </main>
     </div>

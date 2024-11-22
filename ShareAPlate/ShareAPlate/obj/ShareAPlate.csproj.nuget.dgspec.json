@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MANAV\\OneDrive\\Desktop\\COLLEGE\\SEM-5\\Software Development Project\\ShareAPlate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj": {}
+    "C:\\3rd Semester\\Software Development Project 1\\Share A Plate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MANAV\\OneDrive\\Desktop\\COLLEGE\\SEM-5\\Software Development Project\\ShareAPlate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj": {
+    "C:\\3rd Semester\\Software Development Project 1\\Share A Plate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MANAV\\OneDrive\\Desktop\\COLLEGE\\SEM-5\\Software Development Project\\ShareAPlate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj",
+        "projectUniqueName": "C:\\3rd Semester\\Software Development Project 1\\Share A Plate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj",
         "projectName": "ShareAPlate",
-        "projectPath": "C:\\Users\\MANAV\\OneDrive\\Desktop\\COLLEGE\\SEM-5\\Software Development Project\\ShareAPlate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj",
-        "packagesPath": "C:\\Users\\MANAV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MANAV\\OneDrive\\Desktop\\COLLEGE\\SEM-5\\Software Development Project\\ShareAPlate\\ShareAPlate\\ShareAPlate\\obj\\",
+        "projectPath": "C:\\3rd Semester\\Software Development Project 1\\Share A Plate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj",
+        "packagesPath": "C:\\Users\\yogen\\.nuget\\packages\\",
+        "outputPath": "C:\\3rd Semester\\Software Development Project 1\\Share A Plate\\ShareAPlate\\ShareAPlate\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MANAV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yogen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +48,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
