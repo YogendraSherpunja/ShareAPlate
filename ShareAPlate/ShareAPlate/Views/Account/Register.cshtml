@@ -10,7 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Login</title>
     <style>
-        
         .login-container {
             background-color: #ffffff;
             padding: 20px 30px;
@@ -66,19 +65,31 @@
 </head>
 <body>
     <div class="login-container">
-        <h1>Login</h1>
-        <form asp-action="Login" method="post">
+        <h1>Register User</h1>
+        <form asp-action="Register" method="post">
             @Html.AntiForgeryToken()
-            <label for="username">Username</label>
-            <input type="text" id="email" name="email" required>
+            <label for="UserFirstName">First Name</label>
+            <input type="text" id="UserFirstName" name="UserFirstName" required>
 
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required>
+            <label for="UserLastName">Last Name</label>
+            <input type="text" id="UserLastName" name="UserLastName" required>
 
-            <button type="submit">Login</button>
+            <label for="Email">Email</label>
+            <input type="text" id="Email" name="Email" required>
+
+            <label for="Location">Location</label>
+            <input type="text" id="Location" name="Location" required>
+
+            <label for="Number">Phone Number</label>
+            <input type="text" id="Number" name="Number" required>
+
+            <label for="Password">Password</label>
+            <input type="password" id="Password" name="Password" required>
+
+            <button type="submit">Register</button>
         </form>
         <div class="footer">
-            <p>Don't have an account? <a href="@Url.Action("Register", "Account")">Register here</a></p>
+            <p>Already have an account? <a href="@Url.Action("Login", "Account")">Login here</a></p>
         </div>
     </div>
 </body>
