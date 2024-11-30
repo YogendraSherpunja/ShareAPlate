@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3yX8u/6kLumSIa3sQwYgbI3IspBfDrMH40/pP1g2hi0=",
+  "Hash": "mjSqZo/LTLLtaqg5j+uPzVHrTXCVDWncBQQBR/BvQvw=",
   "Source": "ShareAPlate",
   "BasePath": "_content/ShareAPlate",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShareAPlate.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\wwwroot\\css\\home.css",
+      "SourceId": "ShareAPlate",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\wwwroot\\",
+      "BasePath": "_content/ShareAPlate",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
       "Identity": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\wwwroot\\css\\site.css",

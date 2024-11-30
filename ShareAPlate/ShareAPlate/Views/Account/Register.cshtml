@@ -1,14 +1,13 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Register";
 }
-
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Login</title>
+    <title>Register User</title>
     <style>
         .login-container {
             background-color: #ffffff;
@@ -18,49 +17,57 @@
             width: 100%;
             max-width: 400px;
         }
-        .login-container h1 {
-            text-align: center;
-            margin-bottom: 20px;
-            color: #333;
-        }
-        .login-container label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        .login-container input {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 14px;
-        }
-        .login-container button {
-            width: 100%;
-            padding: 10px;
-            background-color: #4caf50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        .login-container button:hover {
-            background-color: #45a049;
-        }
-        .login-container .footer {
-            text-align: center;
-            margin-top: 10px;
-            font-size: 14px;
-        }
-        .login-container .footer a {
-            color: #4caf50;
-            text-decoration: none;
-        }
-        .login-container .footer a:hover {
-            text-decoration: underline;
-        }
+
+            .login-container h1 {
+                text-align: center;
+                margin-bottom: 20px;
+                color: #333;
+            }
+
+            .login-container label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+            .login-container input {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 14px;
+            }
+
+            .login-container button {
+                width: 100%;
+                padding: 10px;
+                background-color: #4caf50;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+                .login-container button:hover {
+                    background-color: #45a049;
+                }
+
+            .login-container .footer {
+                text-align: center;
+                margin-top: 10px;
+                font-size: 14px;
+            }
+
+                .login-container .footer a {
+                    color: #4caf50;
+                    text-decoration: none;
+                }
+
+                    .login-container .footer a:hover {
+                        text-decoration: underline;
+                    }
     </style>
 </head>
 <body>
@@ -68,20 +75,22 @@
         <h1>Register User</h1>
         <form asp-action="Register" method="post">
             @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div> <!-- Validation Errors -->
+
             <label for="UserFirstName">First Name</label>
-            <input type="text" id="UserFirstName" name="UserFirstName" required>
+            <input type="text" id="UserFirstName" name="UserFirstName" value="@Model?.UserFirstName" required>
 
             <label for="UserLastName">Last Name</label>
-            <input type="text" id="UserLastName" name="UserLastName" required>
+            <input type="text" id="UserLastName" name="UserLastName" value="@Model?.UserLastName" required>
 
             <label for="Email">Email</label>
-            <input type="text" id="Email" name="Email" required>
+            <input type="text" id="Email" name="Email" value="@Model?.Email" required>
 
             <label for="Location">Location</label>
-            <input type="text" id="Location" name="Location" required>
+            <input type="text" id="Location" name="Location" value="@Model?.Location" required>
 
             <label for="Number">Phone Number</label>
-            <input type="text" id="Number" name="Number" required>
+            <input type="Number" id="Number" name="Number" value="@Model?.Number" required>
 
             <label for="Password">Password</label>
             <input type="password" id="Password" name="Password" required>
