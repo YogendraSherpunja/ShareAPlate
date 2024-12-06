@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using ShareAPlate.Models.ShareAPlate.Models;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -7,9 +9,9 @@ namespace ShareAPlate.Models
     public class User
     {
         // Auto-incremented primary key
-        [Key] // Marks Id as the primary key
+        [Key] // Marks UserId as the primary key
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Enables auto-increment
-        public int Id { get; set; }
+        public int UserId { get; set; }
 
         [Required]
         public string UserFirstName { get; set; }
@@ -25,6 +27,11 @@ namespace ShareAPlate.Models
         public string Location { get; set; }
         [Required]
         public long Number { get; set; }
+        // Navigation property for Individual Donations(One user can have many individual donations)
+        public virtual ICollection<IndividualDonation> IndividualDonations { get; set; }
+
+        // Navigation property for Organization Donations (One user can have many organization donations)
+        public virtual ICollection<OrganizationDonation> OrganizationDonations { get; set; }
 
         // Default constructor
         public User() { }
@@ -38,10 +45,12 @@ namespace ShareAPlate.Models
             Password = password;
             Location = location;
             Number = number;
+            IndividualDonations = new List<IndividualDonation>();
+            OrganizationDonations = new List<OrganizationDonation>();
         }
         public override string ToString()
         {
-            return $"UserId: {Id}, First Name: {UserFirstName}, Email: {Email}";
+            return $"UserId: {UserId}, First Name: {UserFirstName}, Email: {Email}";
         }
     }
 }

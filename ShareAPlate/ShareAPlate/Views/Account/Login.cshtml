@@ -1,7 +1,7 @@
 ﻿@{
+    Layout = null;
     ViewData["Title"] = "Home Page";
 }
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +10,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Login</title>
     <style>
-        
+        .center-div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full screen height */
+        }
+
+        /* Optional: Style for the centered div */
+        .content {
+            padding: 20px;
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
         .login-container {
             background-color: #ffffff;
             padding: 20px 30px;
@@ -65,7 +80,8 @@
     </style>
 </head>
 <body>
-    <div class="login-container">
+    <div class="center-div">
+     <div class="content login-container">
         <h1>Login</h1>
         <form asp-action="Login" method="post">
             @Html.AntiForgeryToken()
@@ -81,5 +97,6 @@
             <p>Don't have an account? <a href="@Url.Action("Register", "Account")">Register here</a></p>
         </div>
     </div>
+   </div>
 </body>
 </html>

@@ -1,6 +1,6 @@
 namespace ShareAPlate.Models
 {
-    public class RecipientModel
+    public class Recipient
     {
     }
 }

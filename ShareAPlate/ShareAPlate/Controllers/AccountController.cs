@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Authentication.Cookies;
+﻿    using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace ShareAPlate.Controllers
 {
+    // Controller is authorized to only allow authenticated users
     [Authorize]
     public class AccountController : Controller
     {
@@ -85,30 +86,19 @@ namespace ShareAPlate.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(string email, string password, string returnUrl = null)
         {
-            System.Diagnostics.Debug.WriteLine($"Username: {email}, Password: {password}");
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email && u.Password == password);
             if (user != null)
             {
-                //var passwordHasher = new PasswordHasher<User>();
-                ////var result = passwordHasher.VerifyHashedPassword(user, user.Password, password);
-                //// Hash and store the password
-                //string hashedPassword = passwordHasher.HashPassword(user, "userPlainTextPassword");
-                //user.Password = hashedPassword;
-
-                //// Verify the password
-                //PasswordVerificationResult result = passwordHasher.VerifyHashedPassword(user, user.Password, "userInputPassword");
-
-                //if (result == PasswordVerificationResult.Success)
-                //{
+                
                     // Set the session variable
-                    HttpContext.Session.SetInt32("UserId", user.Id);
+                    HttpContext.Session.SetInt32("UserId", user.UserId);
                     Console.WriteLine("User logged in");
 
                     // Authenticate and sign in the user
                     var claims = new List<Claim>
                     {
                         new Claim(ClaimTypes.Name, email),
-                         new Claim(ClaimTypes.NameIdentifier, user.Id.ToString())
+                         new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString())
                      };
 
                     var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -121,7 +111,9 @@ namespace ShareAPlate.Controllers
                     {
                         return Redirect(returnUrl);
                     }
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("homePage", "Dashboard");
+                    System.Diagnostics.Debug.WriteLine($"Username: {email}, Password: {password}");
+
                 //}
             }
             ModelState.AddModelError("", "Invalid login attempt.");
@@ -129,6 +121,8 @@ namespace ShareAPlate.Controllers
 
         }
         // GET: /Account/Logout
+
+        [HttpPost]
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();
