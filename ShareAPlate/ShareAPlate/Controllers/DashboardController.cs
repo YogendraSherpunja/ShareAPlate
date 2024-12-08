@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using NuGet.Protocol.Plugins;
 using ShareAPlate.Models;
 
 namespace ShareAPlate.Controllers
@@ -11,18 +12,19 @@ namespace ShareAPlate.Controllers
     public class DashboardController : Controller
     {
         private readonly ShareAPlateContext _context;
-        public IActionResult DonateFood()
+       
+        public IActionResult HomePage()
         {
             return View();
         }
-        public IActionResult HomePage()
+        public IActionResult Receive()
         {
             return View();
         }
 
         // POST: /Dashboard/DonateFood/IndividualDonation
         [HttpPost]
-        public async Task<IActionResult> DonateFood(IndividualDonation model)
+        public async Task<IActionResult> Donate(IndividualDonation model)
         {
             // Log the model state and data for debugging purposes
             System.Diagnostics.Debug.WriteLine($"FoodDetails: {model.FoodDetails}, Location: {model.Location}");
