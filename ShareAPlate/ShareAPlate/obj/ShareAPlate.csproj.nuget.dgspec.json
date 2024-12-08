@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\3rd Semester\\Software Development Project 1\\Share A Plate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj": {}
+    "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj": {}
   },
   "projects": {
-    "C:\\3rd Semester\\Software Development Project 1\\Share A Plate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj": {
+    "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\3rd Semester\\Software Development Project 1\\Share A Plate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj",
+        "projectUniqueName": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj",
         "projectName": "ShareAPlate",
-        "projectPath": "C:\\3rd Semester\\Software Development Project 1\\Share A Plate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj",
-        "packagesPath": "C:\\Users\\yogen\\.nuget\\packages\\",
-        "outputPath": "C:\\3rd Semester\\Software Development Project 1\\Share A Plate\\ShareAPlate\\ShareAPlate\\obj\\",
+        "projectPath": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\ShareAPlate.csproj",
+        "packagesPath": "C:\\Users\\diksh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\yogen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\diksh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,6 +57,16 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [

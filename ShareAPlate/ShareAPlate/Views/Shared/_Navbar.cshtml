@@ -1,0 +1,60 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+  
+}
+<style>
+    /* Style the button inside the dropdown */
+    .dropdown-item button {
+        all: unset; /* Remove default button styles */
+        display: block; /* Make it behave like a dropdown item */
+        width: 100%; /* Ensure full width */
+        text-align: left; /* Align text to the left */
+        padding: 0.25rem 1rem; /* Match dropdown padding */
+        color: inherit; /* Inherit the text color */
+        cursor: pointer; /* Pointer cursor for clarity */
+    }
+
+    .dropdown-item button:hover {
+        background-color: #f8f9fa; /* Optional: Add hover effect */
+    }
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+    <div class="container">
+        <a class="navbar-brand" href="/DashBoard/HomePage">Share A Plate</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/DashBoard/Donate">Donate Food</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/DashBoard/Receive">Receive Food</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://via.placeholder.com/30" alt="Profile" class="rounded-circle me-2" />
+                        Profile
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+                        <li><a class="dropdown-item" href="/Profile">My Profile</a></li>
+                        <li><a class="dropdown-item" href="/Settings">Settings</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                            <form asp-controller="Account" asp-action="Logout" method="post" class="d-inline">
+                                @Html.AntiForgeryToken() <!-- Protect against CSRF -->
+                                <button type="submit" class="dropdown-item">Logout</button>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

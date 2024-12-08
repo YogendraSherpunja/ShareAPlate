@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShareAPlate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2c62f4f402e55777c0175e60892078e74449ad7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adfe506b1a2ea7d353ee39afbb9e323e540e6a0a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShareAPlate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShareAPlate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
