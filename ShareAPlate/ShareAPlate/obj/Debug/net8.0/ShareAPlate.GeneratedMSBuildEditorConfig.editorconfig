@@ -17,55 +17,61 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShareAPlate
 build_property.RootNamespace = ShareAPlate
-build_property.ProjectDir = C:\Users\diksh\Desktop\Semester_05\Software_Dev\share-a-plate\ShareAPlate\ShareAPlate\
+build_property.ProjectDir = C:\3rd Semester\Software Development Project 1\Share A Plate\ShareAPlate\ShareAPlate\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\diksh\Desktop\Semester_05\Software_Dev\share-a-plate\ShareAPlate\ShareAPlate
+build_property.MSBuildProjectDirectory = C:\3rd Semester\Software Development Project 1\Share A Plate\ShareAPlate\ShareAPlate
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/Account/Login.cshtml]
+[C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/Account/Register.cshtml]
+[C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/DashBoard/Donate.cshtml]
+[C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/DashBoard/Donate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaEJvYXJkXERvbmF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/DashBoard/HomePage.cshtml]
+[C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/DashBoard/DonateFood.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaEJvYXJkXERvbmF0ZUZvb2QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/DashBoard/HomePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaEJvYXJkXEhvbWVQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/DashBoard/Receive.cshtml]
+[C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/DashBoard/Receive.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaEJvYXJkXFJlY2VpdmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/Shared/Error.cshtml]
+[C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/Shared/_Navbar.cshtml]
+[C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/Shared/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/_ViewImports.cshtml]
+[C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/_ViewStart.cshtml]
+[C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/Shared/_Layout.cshtml]
+[C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-j1dzkbpnrd

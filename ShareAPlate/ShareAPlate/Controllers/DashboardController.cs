@@ -4,44 +4,75 @@ using ShareAPlate.Models;
 
 namespace ShareAPlate.Controllers
 {
-    // Controller uses Context to access data from the database
-    // Controller is authorized to only allow authenticated users
-    //Controller passes data to Views
-    // view renders the HTML and sends it to the client
+   // [Authorize] // Ensure all actions are accessible only by authenticated users
     public class DashboardController : Controller
     {
         private readonly ShareAPlateContext _context;
+
+        // Constructor to inject ShareAPlateContext
+        public DashboardController(ShareAPlateContext context)
+        {
+            _context = context ?? throw new ArgumentNullException(nameof(context));
+        }
+
+        /// <summary>
+        /// Renders the Donate Food page.
+        /// </summary>
         public IActionResult DonateFood()
         {
             return View();
         }
+
+        /// <summary>
+        /// Renders the Home Page.
+        /// </summary>
         public IActionResult HomePage()
         {
             return View();
         }
 
-        // POST: /Dashboard/DonateFood/IndividualDonation
+        /// <summary>
+        /// Handles form submission for Individual Donations.
+        /// </summary>
+        /// <param name="model">The donation details submitted by the user.</param>
+        /// <returns>Redirects to HomePage or redisplays the form if validation fails.</returns>
         [HttpPost]
         public async Task<IActionResult> DonateFood(IndividualDonation model)
         {
-            // Log the model state and data for debugging purposes
+            // Log model details for debugging purposes
             System.Diagnostics.Debug.WriteLine($"FoodDetails: {model.FoodDetails}, Location: {model.Location}");
 
             if (ModelState.IsValid)
             {
-                // Add the donation to the database
-                _context.Add(model);
-                await _context.SaveChangesAsync();
-                System.Diagnostics.Debug.WriteLine("Donation added to the database.");
-                // Redirect to the homepage after successful donation
-                return RedirectToAction("HomePage");
+                try
+                {
+                    // Add the donation record to the database
+                    _context.IndividualDonations.Add(model); // Ensure your DbSet name matches
+                    await _context.SaveChangesAsync();
+
+                    // Log success message
+                    System.Diagnostics.Debug.WriteLine("Donation successfully added to the database.");
+
+                    // Redirect to the Home Page after successful donation
+                    TempData["SuccessMessage"] = "Donation submitted successfully!";
+                    return RedirectToAction("HomePage");
+                }
+                catch (Exception ex)
+                {
+                    // Log the exception for debugging
+                    System.Diagnostics.Debug.WriteLine($"Error saving donation: {ex.Message}");
+
+                    // Add error message to the model state
+                    ModelState.AddModelError("", "An error occurred while saving your donation. Please try again.");
+                }
             }
             else
             {
-                // Add error to model state if donation is invalid
-                ModelState.AddModelError("", "Invalid donation details.");
+                // Add general error message to ModelState
+                ModelState.AddModelError("", "Please correct the highlighted errors and try again.");
             }
 
+            // If we reach here, re-render the form with the entered data
             return View(model);
         }
     }

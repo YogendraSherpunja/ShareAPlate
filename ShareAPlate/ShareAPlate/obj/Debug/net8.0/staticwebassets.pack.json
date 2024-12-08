@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\3rd Semester\\Software Development Project 1\\Share A Plate\\ShareAPlate\\ShareAPlate\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShareAPlate.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ShareAPlate.bundle.scp.css"
+      "PackagePath": "staticwebassets\\ShareAPlate.86kvziksys.bundle.scp.css"
     },
     {
       "Id": "C:\\3rd Semester\\Software Development Project 1\\Share A Plate\\ShareAPlate\\ShareAPlate\\wwwroot\\css\\home.css",
@@ -247,6 +247,10 @@
     {
       "Id": "C:\\3rd Semester\\Software Development Project 1\\Share A Plate\\ShareAPlate\\ShareAPlate\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ShareAPlate.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ShareAPlate.Microsoft.AspNetCore.StaticWebAssets.props",

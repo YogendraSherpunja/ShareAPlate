@@ -11,7 +11,6 @@ using Microsoft.AspNetCore.Identity;
 namespace ShareAPlate.Controllers
 {
     // Controller is authorized to only allow authenticated users
-    [Authorize]
     public class AccountController : Controller
     {
         private readonly ShareAPlateContext _context;
@@ -35,8 +34,8 @@ namespace ShareAPlate.Controllers
             // Log the model state and data for debugging purposes
             System.Diagnostics.Debug.WriteLine($"Email: {model.Email}, Password: {model.Password}");
 
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{
                 // Check if the user already exists
                 var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Email == model.Email);
 
@@ -59,16 +58,18 @@ namespace ShareAPlate.Controllers
                     // Add error to model state if user exists
                     ModelState.AddModelError("", "Username or Email already exists.");
                 }
-            }
-            else
-            {
+    //        }
+
+        //    else
+        //    {
                 // Log errors in model state for debugging
-                var errors = string.Join("\n", ModelState.Values.SelectMany(v => v.Errors.Select(e => e.ErrorMessage)));
-                System.Diagnostics.Debug.WriteLine("Model state errors: " + errors);
-            }
+                //var errors = string.Join("\n", ModelState.Values.SelectMany(v => v.Errors.Select(e => e.ErrorMessage)));
+                //System.Diagnostics.Debug.WriteLine("Model state errors: " + errors);
+       //     }
 
             // Return the view if the model state is invalid
             return View(model);
+
         }
 
 
