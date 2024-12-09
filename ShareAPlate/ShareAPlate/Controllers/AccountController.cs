@@ -112,9 +112,8 @@ namespace ShareAPlate.Controllers
                         return Redirect(returnUrl);
                     }
                     return RedirectToAction("homePage", "Dashboard");
-                    System.Diagnostics.Debug.WriteLine($"Username: {email}, Password: {password}");
 
-                //}
+               
             }
             ModelState.AddModelError("", "Invalid login attempt.");
             return View();

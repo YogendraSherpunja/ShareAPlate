@@ -2,9 +2,11 @@
 {
     using System.ComponentModel.DataAnnotations.Schema;
     using System.ComponentModel.DataAnnotations;
+    using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
     namespace ShareAPlate.Models
     {
+        [Table("OrganizationDonation")]
         public class OrganizationDonation
         {
             [Key]
@@ -16,7 +18,9 @@
             public int UserId { get; set; }
 
             // Navigation property to reference the User (the creator of the donation)
-            public virtual User User { get; set; } = new User();
+
+            [ValidateNever]
+            public virtual User User { get; set; }
 
             [Required]
             public string OrganizationName { get; set; } // Name of the organization
