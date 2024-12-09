@@ -28,10 +28,13 @@ namespace ShareAPlate.Models
         [Required]
         public long Number { get; set; }
         // Navigation property for Individual Donations(One user can have many individual donations)
-        public virtual ICollection<IndividualDonation> IndividualDonations { get; set; }
+        public virtual ICollection<IndividualDonation> IndividualDonation { get; set; }
 
         // Navigation property for Organization Donations (One user can have many organization donations)
-        public virtual ICollection<OrganizationDonation> OrganizationDonations { get; set; }
+        public virtual ICollection<OrganizationDonation> OrganizationDonation { get; set; }
+
+        //IndividualDonations = new List<IndividualDonation>();
+        //OrganizationDonations = new List<OrganizationDonation>();
 
         // Default constructor
         public User() { }
@@ -45,12 +48,16 @@ namespace ShareAPlate.Models
             Password = password;
             Location = location;
             Number = number;
-            IndividualDonations = new List<IndividualDonation>();
-            OrganizationDonations = new List<OrganizationDonation>();
+           
         }
         public override string ToString()
         {
             return $"UserId: {UserId}, First Name: {UserFirstName}, Email: {Email}";
+        }
+
+        public static implicit operator int(User? v)
+        {
+            throw new NotImplementedException();
         }
     }
 }

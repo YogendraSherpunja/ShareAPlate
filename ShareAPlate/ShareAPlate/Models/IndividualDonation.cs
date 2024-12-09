@@ -1,8 +1,10 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace ShareAPlate.Models
 {
+    [Table("IndividualDonation")]
     public class IndividualDonation
     {
         [Key]
@@ -33,6 +35,7 @@ namespace ShareAPlate.Models
         public int UserId { get; set; }
 
         // Navigation property to reference the User (the creator of the donation)
+        [ValidateNever]
         public virtual User User { get; set; }
 
         // Constructor for initializing the model

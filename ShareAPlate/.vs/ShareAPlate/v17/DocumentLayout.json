@@ -3,52 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\controllers\\donationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\controllers\\donationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\models\\individualdonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\models\\individualdonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\models\\mydonationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\models\\mydonationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\views\\dashboard\\receive.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\views\\dashboard\\receive.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\views\\donation\\donate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\views\\donation\\donate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\views\\dashboard\\donate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\views\\dashboard\\donate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\views\\donation\\organizationdonation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\views\\donation\\organizationdonation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\models\\shareaplatecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\models\\shareaplatecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\views\\donation\\individualdonation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\views\\donation\\individualdonation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\models\\organizationdonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\models\\organizationdonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\models\\recipient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\models\\recipient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\models\\errorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\models\\errorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\models\\shareaplatecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\models\\shareaplatecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|c:\\users\\diksh\\desktop\\semester_05\\software_dev\\share-a-plate\\shareaplate\\shareaplate\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B7779AA-3F81-4648-9852-70E3E2B099BE}|ShareAPlate\\ShareAPlate.csproj|solutionrelative:shareaplate\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,17 +54,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Models\\User.cs",
               "RelativeDocumentMoniker": "ShareAPlate\\Models\\User.cs",
               "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Models\\User.cs",
               "RelativeToolTip": "ShareAPlate\\Models\\User.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAASwC4AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T17:59:25.506Z",
               "IsPinned": true,
@@ -76,15 +72,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Receive.cshtml",
-              "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Views\\DashBoard\\Receive.cshtml",
-              "RelativeDocumentMoniker": "ShareAPlate\\Views\\DashBoard\\Receive.cshtml",
-              "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Views\\DashBoard\\Receive.cshtml",
-              "RelativeToolTip": "ShareAPlate\\Views\\DashBoard\\Receive.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T18:36:42.017Z",
+              "DocumentIndex": 6,
+              "Title": "OrganizationDonation.cs",
+              "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Models\\OrganizationDonation.cs",
+              "RelativeDocumentMoniker": "ShareAPlate\\Models\\OrganizationDonation.cs",
+              "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Models\\OrganizationDonation.cs",
+              "RelativeToolTip": "ShareAPlate\\Models\\OrganizationDonation.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwBYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T00:18:58.11Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -92,68 +89,85 @@
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IndividualDonation.cshtml",
+              "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Views\\Donation\\IndividualDonation.cshtml",
+              "RelativeDocumentMoniker": "ShareAPlate\\Views\\Donation\\IndividualDonation.cshtml",
+              "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Views\\Donation\\IndividualDonation.cshtml",
+              "RelativeToolTip": "ShareAPlate\\Views\\Donation\\IndividualDonation.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC8AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T01:37:48.476Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Donate.cshtml",
-              "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Views\\DashBoard\\Donate.cshtml",
-              "RelativeDocumentMoniker": "ShareAPlate\\Views\\DashBoard\\Donate.cshtml",
-              "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Views\\DashBoard\\Donate.cshtml",
-              "RelativeToolTip": "ShareAPlate\\Views\\DashBoard\\Donate.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "Title": "OrganizationDonation.cshtml",
+              "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Views\\Donation\\OrganizationDonation.cshtml",
+              "RelativeDocumentMoniker": "ShareAPlate\\Views\\Donation\\OrganizationDonation.cshtml",
+              "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Views\\Donation\\OrganizationDonation.cshtml",
+              "RelativeToolTip": "ShareAPlate\\Views\\Donation\\OrganizationDonation.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T18:30:00.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ShareAPlate\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ShareAPlate\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAgwFkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T17:04:01.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "ShareAPlate\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "ShareAPlate\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA8wBQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T17:01:50.629Z",
+              "WhenOpened": "2024-12-09T01:15:55.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "_Navbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeDocumentMoniker": "ShareAPlate\\Views\\Shared\\_Navbar.cshtml",
+              "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeToolTip": "ShareAPlate\\Views\\Shared\\_Navbar.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T01:10:22.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyDonationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Models\\MyDonationViewModel.cs",
+              "RelativeDocumentMoniker": "ShareAPlate\\Models\\MyDonationViewModel.cs",
+              "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Models\\MyDonationViewModel.cs",
+              "RelativeToolTip": "ShareAPlate\\Models\\MyDonationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T01:07:04.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Donate.cshtml",
+              "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Views\\Donation\\Donate.cshtml",
+              "RelativeDocumentMoniker": "ShareAPlate\\Views\\Donation\\Donate.cshtml",
+              "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Views\\Donation\\Donate.cshtml",
+              "RelativeToolTip": "ShareAPlate\\Views\\Donation\\Donate.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T00:48:51.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ShareAPlateContext.cs",
               "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Models\\ShareAPlateContext.cs",
               "RelativeDocumentMoniker": "ShareAPlate\\Models\\ShareAPlateContext.cs",
               "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Models\\ShareAPlateContext.cs",
               "RelativeToolTip": "ShareAPlate\\Models\\ShareAPlateContext.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwCEAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T17:10:53.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrganizationDonation.cs",
-              "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Models\\OrganizationDonation.cs",
-              "RelativeDocumentMoniker": "ShareAPlate\\Models\\OrganizationDonation.cs",
-              "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Models\\OrganizationDonation.cs",
-              "RelativeToolTip": "ShareAPlate\\Models\\OrganizationDonation.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBIAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T16:47:46.536Z",
+              "WhenOpened": "2024-12-09T00:11:59.679Z",
               "EditorCaption": ""
             },
             {
@@ -164,61 +178,35 @@
               "RelativeDocumentMoniker": "ShareAPlate\\Models\\IndividualDonation.cs",
               "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Models\\IndividualDonation.cs",
               "RelativeToolTip": "ShareAPlate\\Models\\IndividualDonation.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAiwCMAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T15:33:03.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Navbar.cshtml",
-              "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Views\\Shared\\_Navbar.cshtml",
-              "RelativeDocumentMoniker": "ShareAPlate\\Views\\Shared\\_Navbar.cshtml",
-              "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Views\\Shared\\_Navbar.cshtml",
-              "RelativeToolTip": "ShareAPlate\\Views\\Shared\\_Navbar.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAowCEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T14:33:13.271Z",
+              "WhenOpened": "2024-12-08T23:33:59.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ErrorView.cs",
-              "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Models\\ErrorView.cs",
-              "RelativeDocumentMoniker": "ShareAPlate\\Models\\ErrorView.cs",
-              "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Models\\ErrorView.cs",
-              "RelativeToolTip": "ShareAPlate\\Models\\ErrorView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ShareAPlate\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ShareAPlate\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T14:14:08.707Z",
+              "WhenOpened": "2024-12-08T19:25:51.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Recipient.cs",
-              "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Models\\Recipient.cs",
-              "RelativeDocumentMoniker": "ShareAPlate\\Models\\Recipient.cs",
-              "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Models\\Recipient.cs",
-              "RelativeToolTip": "ShareAPlate\\Models\\Recipient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DonationController.cs",
+              "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Controllers\\DonationController.cs",
+              "RelativeDocumentMoniker": "ShareAPlate\\Controllers\\DonationController.cs",
+              "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Controllers\\DonationController.cs",
+              "RelativeToolTip": "ShareAPlate\\Controllers\\DonationController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAiwHMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T14:13:56.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "ShareAPlate\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\diksh\\Desktop\\Semester_05\\Software_Dev\\share-a-plate\\ShareAPlate\\ShareAPlate\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "ShareAPlate\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAD6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T21:10:54.293Z",
+              "WhenOpened": "2024-12-08T19:11:29.726Z",
               "EditorCaption": ""
             }
           ]
