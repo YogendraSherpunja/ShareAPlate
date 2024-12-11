@@ -40,16 +40,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaEJvYXJkXERvbmF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/DashBoard/DonateFood.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaEJvYXJkXERvbmF0ZUZvb2QuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/DashBoard/HomePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaEJvYXJkXEhvbWVQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/DashBoard/Receive.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaEJvYXJkXFJlY2VpdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/Profile/UpdateProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxVcGRhdGVQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/3rd Semester/Software Development Project 1/Share A Plate/ShareAPlate/ShareAPlate/Views/Shared/Error.cshtml]

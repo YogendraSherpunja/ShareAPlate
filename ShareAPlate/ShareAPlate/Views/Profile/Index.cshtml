@@ -1,0 +1,35 @@
+﻿@model ShareAPlate.Models.User
+
+@if (Model == null)
+{
+    <p>No profile information is available.</p>
+}
+else
+{
+    <div class="container mt-5">
+        <h2>My Profile</h2>
+        <div class="profile-info">
+            <div class="mb-3">
+                <strong>First Name:</strong>
+                <span>@Model.UserFirstName</span>
+            </div>
+            <div class="mb-3">
+                <strong>Last Name:</strong>
+                <span>@Model.UserLastName</span>
+            </div>
+            <div class="mb-3">
+                <strong>Email:</strong>
+                <span>@Model.Email</span>
+            </div>
+            <div class="mb-3">
+                <strong>Location:</strong>
+                <span>@Model.Location</span>
+            </div>
+            <div class="mb-3">
+                <strong>Phone Number:</strong>
+                <span>@Model.Number</span>
+            </div>
+            <a href="@Url.Action("Edit", "Profile")" class="btn btn-primary">Edit</a>
+        </div>
+    </div>
+}

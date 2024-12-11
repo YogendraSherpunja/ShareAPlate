@@ -539,3 +539,4 @@ C:\3rd Semester\Software Development Project 1\Share A Plate\ShareAPlate\ShareAP
 C:\3rd Semester\Software Development Project 1\Share A Plate\ShareAPlate\ShareAPlate\obj\Debug\net8.0\ShareAPlate.pdb
 C:\3rd Semester\Software Development Project 1\Share A Plate\ShareAPlate\ShareAPlate\obj\Debug\net8.0\ShareAPlate.genruntimeconfig.cache
 C:\3rd Semester\Software Development Project 1\Share A Plate\ShareAPlate\ShareAPlate\obj\Debug\net8.0\ref\ShareAPlate.dll
+C:\3rd Semester\Software Development Project 1\Share A Plate\ShareAPlate\ShareAPlate\obj\Debug\net8.0\ShareAPlate.sourcelink.json

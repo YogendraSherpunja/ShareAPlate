@@ -1,79 +1,122 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ShareAPlate.Models;
+using Microsoft.AspNetCore.Http;
+using System.Threading.Tasks;
+using System.Linq;
 
 namespace ShareAPlate.Controllers
 {
-   // [Authorize] // Ensure all actions are accessible only by authenticated users
+    [Authorize] // Ensure all actions are accessible only by authenticated users
     public class DashboardController : Controller
     {
         private readonly ShareAPlateContext _context;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        // Constructor to inject ShareAPlateContext
-        public DashboardController(ShareAPlateContext context)
+        // Constructor to inject ShareAPlateContext and IHttpContextAccessor
+        public DashboardController(ShareAPlateContext context, IHttpContextAccessor httpContextAccessor)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
+            _httpContextAccessor = httpContextAccessor ?? throw new ArgumentNullException(nameof(httpContextAccessor));
         }
 
-        /// <summary>
-        /// Renders the Donate Food page.
-        /// </summary>
+        // Renders the Donate Food page
         public IActionResult DonateFood()
         {
             return View();
         }
 
-        /// <summary>
-        /// Renders the Home Page.
-        /// </summary>
+        // Renders the Home Page
         public IActionResult HomePage()
         {
             return View();
         }
 
-        /// <summary>
-        /// Handles form submission for Individual Donations.
-        /// </summary>
-        /// <param name="model">The donation details submitted by the user.</param>
-        /// <returns>Redirects to HomePage or redisplays the form if validation fails.</returns>
+        // Handles form submission for Individual Donations
         [HttpPost]
         public async Task<IActionResult> DonateFood(IndividualDonation model)
         {
-            // Log model details for debugging purposes
             System.Diagnostics.Debug.WriteLine($"FoodDetails: {model.FoodDetails}, Location: {model.Location}");
 
             if (ModelState.IsValid)
             {
                 try
                 {
-                    // Add the donation record to the database
                     _context.IndividualDonations.Add(model); // Ensure your DbSet name matches
                     await _context.SaveChangesAsync();
 
-                    // Log success message
                     System.Diagnostics.Debug.WriteLine("Donation successfully added to the database.");
 
-                    // Redirect to the Home Page after successful donation
                     TempData["SuccessMessage"] = "Donation submitted successfully!";
                     return RedirectToAction("HomePage");
                 }
                 catch (Exception ex)
                 {
-                    // Log the exception for debugging
                     System.Diagnostics.Debug.WriteLine($"Error saving donation: {ex.Message}");
-
-                    // Add error message to the model state
                     ModelState.AddModelError("", "An error occurred while saving your donation. Please try again.");
                 }
             }
             else
             {
-                // Add general error message to ModelState
                 ModelState.AddModelError("", "Please correct the highlighted errors and try again.");
             }
 
-            // If we reach here, re-render the form with the entered data
             return View(model);
+        }
+
+        // GET: Dashboard/UpdateProfile
+        public async Task<IActionResult> UpdateProfile()
+        {
+            // Get the logged-in user's ID (you can retrieve it from the session or cookies)
+            var userId = int.Parse(_httpContextAccessor.HttpContext.User.Identity.Name); // Adjust based on your setup
+
+            // Fetch the user's details from the database
+            var user = await _context.Users.FindAsync(userId);
+
+            if (user == null)
+            {
+                return NotFound(); // User not found
+            }
+
+            return View(user); // Pass user data to the view
+        }
+
+        // POST: Dashboard/UpdateProfile
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateProfile(User user)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    // Find the existing user record
+                    var existingUser = await _context.Users.FindAsync(user.UserId);
+                    if (existingUser == null)
+                    {
+                        return NotFound(); // User not found
+                    }
+
+                    // Update user properties
+                    existingUser.UserFirstName = user.UserFirstName;
+                    existingUser.UserLastName = user.UserLastName;
+                    existingUser.Email = user.Email;
+                    existingUser.Location = user.Location;
+                    existingUser.Number = user.Number;
+
+                    // Save changes to the database
+                    await _context.SaveChangesAsync();
+
+                    TempData["SuccessMessage"] = "Profile updated successfully!";
+                    return RedirectToAction("HomePage", "Dashboard");
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", $"An error occurred while updating the profile: {ex.Message}");
+                }
+            }
+
+            return View(user); // Re-render the form if validation fails
         }
     }
 }
