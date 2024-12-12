@@ -267,3 +267,8 @@ C:\Users\diksh\Desktop\Semester_05\Software_Dev\share-a-plate\ShareAPlate\ShareA
 C:\Users\diksh\Desktop\Semester_05\Software_Dev\share-a-plate\ShareAPlate\ShareAPlate\obj\Debug\net8.0\ShareAPlate.pdb
 C:\Users\diksh\Desktop\Semester_05\Software_Dev\share-a-plate\ShareAPlate\ShareAPlate\obj\Debug\net8.0\ShareAPlate.genruntimeconfig.cache
 C:\Users\diksh\Desktop\Semester_05\Software_Dev\share-a-plate\ShareAPlate\ShareAPlate\obj\Debug\net8.0\ref\ShareAPlate.dll
+C:\Users\diksh\Desktop\Semester_05\Software_Dev\share-a-plate\ShareAPlate\ShareAPlate\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\diksh\Desktop\Semester_05\Software_Dev\share-a-plate\ShareAPlate\ShareAPlate\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\diksh\Desktop\Semester_05\Software_Dev\share-a-plate\ShareAPlate\ShareAPlate\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\diksh\Desktop\Semester_05\Software_Dev\share-a-plate\ShareAPlate\ShareAPlate\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\diksh\Desktop\Semester_05\Software_Dev\share-a-plate\ShareAPlate\ShareAPlate\obj\Debug\net8.0\ShareAPlate.MvcApplicationPartsAssemblyInfo.cs
