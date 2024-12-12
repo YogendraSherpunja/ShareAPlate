@@ -34,16 +34,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/DashBoard/Donate.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaEJvYXJkXERvbmF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/DashBoard/HomePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaEJvYXJkXEhvbWVQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/DashBoard/Receive.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaEJvYXJkXFJlY2VpdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/Donation/Donate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uYXRpb25cRG9uYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/Donation/IndividualDonation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uYXRpb25cSW5kaXZpZHVhbERvbmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/Donation/OrganizationDonation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uYXRpb25cT3JnYW5pemF0aW9uRG9uYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/diksh/Desktop/Semester_05/Software_Dev/share-a-plate/ShareAPlate/ShareAPlate/Views/Shared/Error.cshtml]

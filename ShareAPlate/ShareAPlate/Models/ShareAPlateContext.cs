@@ -18,13 +18,13 @@ public class ShareAPlateContext : DbContext
 
         modelBuilder.Entity<IndividualDonation>()
             .HasOne(d => d.User)
-            .WithMany(u => u.IndividualDonations)
+            .WithMany(u => u.IndividualDonation)
             .HasForeignKey(d => d.UserId)
             .OnDelete(DeleteBehavior.Cascade);  // Deletes donations when user is deleted
 
         modelBuilder.Entity<OrganizationDonation>()
             .HasOne(d => d.User)
-            .WithMany(u => u.OrganizationDonations)
+            .WithMany(u => u.OrganizationDonation)
             .HasForeignKey(d => d.UserId)
             .OnDelete(DeleteBehavior.Cascade);
 
