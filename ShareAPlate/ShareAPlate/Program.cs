@@ -43,6 +43,9 @@ builder.Services.AddHttpContextAccessor();
 
 // Add controllers with views
 builder.Services.AddControllersWithViews();
+builder.Services.AddSwaggerGen();
+builder.Services.AddEndpointsApiExplorer();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -54,6 +57,7 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();
 
 app.UseRouting();
@@ -63,6 +67,10 @@ app.UseSession();
 // Add authentication and authorization middleware
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseSwagger();
+app.UseSwaggerUI();
+app.UseDeveloperExceptionPage();
+
 
 // Configure endpoint routing
 app.MapControllerRoute(

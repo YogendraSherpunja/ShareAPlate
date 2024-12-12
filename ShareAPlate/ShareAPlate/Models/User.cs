@@ -28,19 +28,24 @@ namespace ShareAPlate.Models
         [Required]
         public long Number { get; set; }
         // Navigation property for Individual Donations(One user can have many individual donations)
-        public virtual ICollection<IndividualDonation> IndividualDonation { get; set; }
+        public virtual ICollection<IndividualDonation> IndividualDonations { get; set; }
 
         // Navigation property for Organization Donations (One user can have many organization donations)
-        public virtual ICollection<OrganizationDonation> OrganizationDonation { get; set; }
+        public virtual ICollection<OrganizationDonation> OrganizationDonations { get; set; }
 
         //IndividualDonations = new List<IndividualDonation>();
         //OrganizationDonations = new List<OrganizationDonation>();
 
-        // Default constructor
-        public User() { }
+        public User()
+        {
+            // Initialize collections in constructor
+            IndividualDonations = new HashSet<IndividualDonation>();
+            OrganizationDonations = new HashSet<OrganizationDonation>();
+        }
+
 
         // Constructor with parameters
-        public User(string userFirstName, string userLastName, string email, string password, string location, int number)
+        public User(string userFirstName, string userLastName, string email, string password, string location, int number) : this()
         {   
             UserFirstName = userFirstName;
             UserLastName = userLastName;
