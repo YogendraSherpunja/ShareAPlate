@@ -2,9 +2,95 @@
     ViewData["Title"] = "homePage";
 }
 
-    <!-- Page Content -->
-    <div class="container mt-4">
-        <h1>homePage</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homePage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+            .button:hover {
+                background-color: #0056b3;
+            }
+
+        .posts {
+            margin-top: 20px;
+        }
+
+        .list-group {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .list-group-item {
+            background: #f1f1f1;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Home</h1>
         <p>Welcome to the homepage of Share A Plate!</p>
+
+        <a href="/IndividualDonation/Create" class="button">Make a Post</a>
+
+        <!-- Posts Section -->
+        <div class="posts">
+            <h2>Recent Posts</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h3>Post Title 1</h3>
+                    <p>This is the content of the first post.</p>
+                    <small>Posted on January 1, 2024</small>
+                </li>
+                <li class="list-group-item">
+                    <h3>Post Title 2</h3>
+                    <p>This is the content of the second post.</p>
+                    <small>Posted on January 2, 2024</small>
+                </li>
+                <li class="list-group-item">
+                    <h3>Post Title 3</h3>
+                    <p>This is the content of the third post.</p>
+                    <small>Posted on January 3, 2024</small>
+                </li>
+            </ul>
+        </div>
     </div>
 
+</body>
+</html>
